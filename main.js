@@ -27,7 +27,7 @@ addEventListener('DOMContentLoaded', (event) =>
 {
     console.log('DOM fully loaded and parsed');
     document.getElementById('cozy-books').innerHTML = 
-    stub("Life of the Party", "/img/Life of the Party Final Small.jpg", "First Book in the Series") + 
-    stub("Friends of the Deceased", "/img/Friends of the Deceased Front Cover.bmp", "Second Book in the Series")
-    stub("Days of Wine and Tomatoes", "/img/DOWT Front Cover Final Clipped.png", "Third Book in the Series");
+    stub("Life of the Party", "img/Life of the Party Final Small.jpg", "First Book in the Series") + 
+    stub("Friends of the Deceased", "img/Friends of the Deceased Front Cover.bmp", "Second Book in the Series")
+    stub("Days of Wine and Tomatoes", "img/DOWT Front Cover Final Clipped.png", "Third Book in the Series");
 });
