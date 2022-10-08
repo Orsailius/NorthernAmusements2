@@ -1,6 +1,3 @@
-
-
-
 addEventListener('DOMContentLoaded', (event) => 
 {
     console.log('DOM fully loaded and parsed');
@@ -27,6 +24,11 @@ addEventListener('DOMContentLoaded', (event) =>
         "https://store.steampowered.com/app/1185410/Minigame_Blast/") +
     gameStub("Ficterra", "img/Ficterra.png", "https://store.steampowered.com/app/852880/Ficterra/");
 });
+
+function goToAction()
+{    
+    document.getElementById("informational").innerText = "I've been changed";
+}
 
 stub = function(title, image, flare)
 {
